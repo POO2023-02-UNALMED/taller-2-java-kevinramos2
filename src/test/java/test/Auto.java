@@ -17,6 +17,7 @@ public class Auto {
 		}
 		return numeroAsientos;
 	}
+	
 	String verificarIntegridad() {
 		if (this.registro == this.motor.registro) {
 			for (int x = 0; x< asientos.length; x ++) {
